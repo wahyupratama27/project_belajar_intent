@@ -12,9 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void panggil(View view) {
-        String nomor = "09667347" ;
-        Intent panggil = new Intent(Intent. ACTION_DIAL);
-        panggil.setData(Uri. fromParts("tel",nomor,null));
+        Intent panggil = new Intent(Intent. ACTION_WEB_SEARCH);
         startActivity(panggil);
     }
     public void tentang(View view) {
@@ -22,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(tentang);
     }
     public void buka(View view) {
-        String url = "https://badoystudio.com" ;
+        String url = "https://shopee.co.id/?af_click_lookback=7d&af_reengagement_window=7d&af_siteid=an_11278610000&af_sub_siteid=1f093089e6d4204583cf55e6a714ef09----&af_viewthrough_lookback=1d&c=-&is_retargeting=true&pid=affiliates&utm_campaign=-&utm_content=1f093089e6d4204583cf55e6a714ef09----&utm_medium=affiliates&utm_source=an_11278610000" ;
         Intent bukabrowser = new Intent(Intent. ACTION_VIEW);
         bukabrowser.setData(Uri. parse(url));
         startActivity(bukabrowser);

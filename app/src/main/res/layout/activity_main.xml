@@ -7,7 +7,7 @@
     android:padding="20dp"
     tools:context=".MainActivity">
     <Button
-        android:text="TELEPON"
+        android:text="web search"
         android:layout_width="match_parent"
         android:layout_alignParentTop="true"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
         />
 
     <Button
-        android:text="TENTANG APLIKASI"
+        android:text="informasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnbuka"
@@ -35,5 +35,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="11dp"
         android:onClick="buka"
-        android:text="BUKA BROWSER " />
+        android:text="BUKA shopee " />
 </RelativeLayout>

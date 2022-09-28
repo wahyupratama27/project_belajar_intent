@@ -17,7 +17,7 @@
         android:text="kembali" />
 
     <TextView
-        android:text="ini adalah aplikasi belajar intent "
+        android:text="selamat datang di polinela"
         android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
